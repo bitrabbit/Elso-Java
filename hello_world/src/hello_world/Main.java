@@ -25,9 +25,12 @@ public class Main {
 		double hanyados = a/b;
 		int kulonbseg = a-b;
 		
+		
 		System.out.println("Összeg: " + osszeg);
 		System.out.println("Szorzat: " + szorzat);
 		System.out.println("Hányados: " + hanyados);
 		System.out.println("Különbség: " + kulonbseg);
+
+		//commit
 	}
 }
