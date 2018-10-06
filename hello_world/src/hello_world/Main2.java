@@ -10,7 +10,7 @@ public class Main2 {
 		int szam4 = Integer.parseInt(args[3]);
 		int szam5 = Integer.parseInt(args[4]);
 
-		double atlag = (double) (szam1 + szam2 + szam3 + szam4 + szam5) / 5;
+		double atlag = (double) (szam1 + szam2 + szam3 + szam4 + szam5) / args.length;
 		System.out.println("Átlag: " + atlag);
 
 	}
