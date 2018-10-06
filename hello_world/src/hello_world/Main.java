@@ -22,7 +22,7 @@ public class Main {
 		
 		int osszeg = a+b;
 		int szorzat = a*b;
-		double hanyados = a/b;
+		double hanyados = (double) a/b;
 		int kulonbseg = a-b;
 		
 		
