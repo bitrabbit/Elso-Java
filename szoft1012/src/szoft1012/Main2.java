@@ -19,7 +19,6 @@ public class Main2 {
 			System.out.println("A 11- es a(z) " + szamlalo + ". volt");
 		} catch (InputMismatchException e) {
 			System.err.println("Nem számot adtál meg!");
-			return;
 		}catch (Exception e) {
 			System.err.println("Hiba történt a programba!");
 		}

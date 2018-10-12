@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 public class Main {
-
+	static Scanner beolvas = new Scanner(System.in); 
 	public static void main(String[] args) {
 
 	Scanner beolvas = new Scanner(System.in);
@@ -25,15 +25,16 @@ public class Main {
 //	}
 //	beolvas.close();
 	
-	try {
-		System.out.println("Kérek egy karaktert: ");
-		int karakter = beolvas.next().charAt(0);
-		System.out.println("A karakter: ");
-		System.out.println(karakter);
-	} catch (InputMismatchException e) {
-		System.out.println(e);
-	}
-	beolvas.close();
+//	try {
+//		System.out.println("Kérek egy karaktert: ");
+//		int karakter = beolvas.next().charAt(0);
+//		System.out.println("A karakter: ");
+//		System.out.println(karakter);
+//	} catch (InputMismatchException e) {
+//		System.out.println(e);
+//	}
+//	beolvas.close();
+
 	
 	}
 

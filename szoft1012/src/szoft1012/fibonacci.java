@@ -29,7 +29,7 @@ public class fibonacci {
 		} catch (InputMismatchException e) {
 			System.err.println("Nem számot adtál meg!");
 		}catch (Exception e) {
-			System.err.println("Hiba történt a programba!");
+			System.err.println("Hiba történt a programban!");
 		}
 
 	}
